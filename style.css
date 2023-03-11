@@ -1,0 +1,37 @@
+.body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  padding: 0;
+  margin: 100px;
+  box-sizing: border-box;
+  gap: 15px;
+}
+
+.item {
+  padding: 1cm 2cm;
+  border: 2px solid black;
+  border-radius: 17px;
+  height: 300px;
+  width: 200px;
+  background-color: white;
+  box-shadow: -1rem 0 20px rgba(0, 0, 0, 0.5);
+  margin-right: -100px;
+  flex-direction: column;
+}
+.item .button {
+  background-color: blue;
+  color: white;
+  margin-top: auto;
+  padding: 10px 5px;
+  outline: none;
+  border: none;
+  border-radius: 5cm;
+  margin-top: auto;
+}
+.item .hover {
+  background: blue;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
